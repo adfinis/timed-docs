@@ -1,0 +1,4 @@
+.vscode
+.vitepress/*
+!.vitepress/config.mts
+node_modules
