@@ -5,7 +5,7 @@ const date = new Date;
 export default defineConfig({
   title: "Timed",
   description: "An Open Source Time Tracking App",
-  base: "/timed-docs/",
+  base: "/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
