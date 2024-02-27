@@ -34,7 +34,10 @@ export default defineConfig({
     ],
     footer: {
       message: 'Adfinis Timed is released under the <a href="https://github.com/adfinis/timed-frontend/blob/main/LICENSE">GNU AFFERO GENERAL PUBLIC LICENSE</a>.',
-      copyright: `Copyright © 2019-${date.getFullYear()} <a href="https://github.com/adfinis/timed-frontend">Adfinis Timed</a>`
+      copyright: `Made by Adfinis with ❤️
+      <br>
+      Copyright © 2019-${date.getFullYear()} <a href="https://github.com/adfinis/timed-frontend">Adfinis Timed</a>
+      `
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/adfinis/timed-frontend' }
