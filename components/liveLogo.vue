@@ -1,14 +1,16 @@
 <template>
-    <div class="clock-container" style="display: none;">
-        <svg class="timed-clock" viewBox="0 0 512 512" width="100%" height="100%">
-            <circle class="circle" r="240" cx="256" cy="256" stroke-width="20" />
-            <line class="hour" x1="256" y1="144" x2="256" y2="288" stroke-width="30" stroke-linecap="round"
-                :transform="`rotate(${data.hours} 256 256)`" />
-            <line class="minute" x1="256" y1="80" x2="256" y2="288" stroke-width="20" stroke-linecap="round"
-                :transform="`rotate(${data.minutes} 256 256)`" />
-            <line class="second" x1="256" y1="64" x2="256" y2="288" stroke-width="20" stroke-linecap="round"
-                :transform="`rotate(${data.seconds} 256 256)`" />
-        </svg>
+    <div class="component-renderer">
+        <div class="clock-container" style="display: none;">
+            <svg class="timed-clock" viewBox="0 0 512 512" width="100%" height="100%">
+                <circle class="circle" r="240" cx="256" cy="256" stroke-width="20" />
+                <line class="hour" x1="256" y1="144" x2="256" y2="288" stroke-width="30" stroke-linecap="round"
+                    :transform="`rotate(${data.hours} 256 256)`" />
+                <line class="minute" x1="256" y1="80" x2="256" y2="288" stroke-width="20" stroke-linecap="round"
+                    :transform="`rotate(${data.minutes} 256 256)`" />
+                <line class="second" x1="256" y1="64" x2="256" y2="288" stroke-width="20" stroke-linecap="round"
+                    :transform="`rotate(${data.seconds} 256 256)`" />
+            </svg>
+        </div>
     </div>
 </template>
 <script lang="ts" setup>
@@ -66,5 +68,10 @@ function updateClock() {
 
 .second {
     stroke: var(--clock-color-secondary);
+}
+
+.image-container {
+    text-align: -webkit-center;
+    margin-top: 15px;
 }
 </style>
