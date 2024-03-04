@@ -1,6 +1,7 @@
 # Timed Documentation
 
-Timed is the is the time recording app
+Timed is a Adfinis Product for time tracking
+
 
 since [Adfinis](https://adfinis.com) is a provider of services, all services provided must be logged precisely so that they can be invoiced to customers.
 

@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
 import { reactive, onMounted } from 'vue';
-import { VPTeamMembers } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress/theme';
 
 interface GithubUser {
     login: string;
