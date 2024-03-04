@@ -1,4 +1,10 @@
 {
+  "name": "timed-docs",
+  "version": "0.0.1",
+  "authors": {
+    "name": "Adfinis",
+    "email": "info@adfinis.com"
+  },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
