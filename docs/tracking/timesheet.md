@@ -1,4 +1,7 @@
-# Timesheet Tracking
+# Time Sheet
 
+![Time Sheet](/timesheet.png)
 
-This is Timesheet Tracking
+With the time sheet, you can inset you daily activities manually,
+
+not only for the current day, but also for the other days
