@@ -41,6 +41,9 @@ export default defineConfig({
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/adfinis/timed-frontend' }
-    ]
+    ],
+    search: {
+      provider: 'local'
+    }
   }
 })
