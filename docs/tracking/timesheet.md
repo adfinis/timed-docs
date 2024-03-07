@@ -1,6 +1,6 @@
 # Time Sheet
 
-![Time Sheet](/timesheet.png)
+![Time Sheet](/tracking/timesheet/timesheet.png)
 
 With the time sheet, you can inset you daily activities manually,
 
