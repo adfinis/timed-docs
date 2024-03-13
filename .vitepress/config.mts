@@ -24,11 +24,18 @@ export default defineConfig({
         ]
       },
       {
-        // text: 'Documentation',
         items: [
-          { text: 'Analysis', link: '/docs/analysis/' },
-          { text: 'Statistics', link: '/docs/statistics/' },
-          { text: 'Projects', link: '/docs/projects/' },
+          { text: 'Analysis', link: '/docs/analysis' },
+          { text: 'Statistics', link: '/docs/statistics' },
+          { text: 'Projects', link: '/docs/projects' },
+          { text: 'Profile Page', link: '/docs/profile' },
+          { text: 'Users Page', link: '/docs/users' },
+          // { text: 'Logout', link: '/docs/logout' }, keep this page here :)
+        ]
+      },
+      {
+        items: [
+          { text: 'Filters', link: '/docs/filters' },
         ]
       }
     ],
@@ -45,5 +52,5 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  }
+  },
 })

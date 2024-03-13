@@ -1,6 +1,6 @@
 {
   "name": "timed-docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": {
     "name": "Adfinis",
     "email": "info@adfinis.com"
@@ -12,5 +12,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.0.0-rc.24"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.1.0"
   }
 }

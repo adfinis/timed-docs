@@ -2,7 +2,7 @@
 
 ## Activities bar
 
-![Activities bar](/tracking/activities/1.png)
+![Activities bar](/tracking/activities/1.png){data-zoomable}
 
 With the activities Bar, you can start an activity, and in the end of the tasks and by the end of the day, you can generate a time sheet from the current activities
 
@@ -13,19 +13,19 @@ Note: The tasks that you create via activities bar are not going to be included 
 
 ## Overview Benchmark
 
-![Overview Benchmark](/tracking/activities/2.png)
+![Overview Benchmark](/tracking/activities/2.png){data-zoomable}
 
 
 The `Overview Benchmark` Component is providing the information about the duration of each working time, you can check your progress virtually, and without needing to go deeply to the details
 
-![Overview Benchmark](/tracking/activities/3.png)
+![Overview Benchmark](/tracking/activities/3.png){data-zoomable}
 
 Those helper methods, will help you to navigate throw the dates, vie going to the next and previus days, or just opening the calendar, and selecting the date, and the `Overview Benchmark` component, will display the inforamtion about the selected date
 
 and the first button in the left, is `Generate Magic Link`,
 
 ## Magic Link
-![Magic Link](/tracking/activities/4.png)
+![Magic Link](/tracking/activities/4.png){data-zoomable}
 
 This is a great featuer for the team lead and the project manager
 With the magic link, you can define the customer, project, and the task, and also the comment that you want the user to enter the task,
