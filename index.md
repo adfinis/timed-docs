@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Timed"
   text: "An Open Source Time Tracking App"
-  tagline: "Log your Working Activities, Attendances, Holidays"
+  tagline: "And easy to use time tracking app."
   image:
     src: https://raw.githubusercontent.com/adfinis/timed-frontend/main/public/assets/logo.svg
   actions:
@@ -15,12 +15,13 @@ hero:
 
 features:
   - title: For Employees
-    details: You can report the working time, and register the activites that you ware doing in each day
+    details: Track your working hours by simply pressing a record button.
   - title: For Project Manager
-    details: You can track the activitis in your team, and check the activities of each member in your team
+    details: Gain a quick overview about spent hours and your current project budget.
   - title: For Adminstration
-    details: You can check duration of the work that happend for your customer, and generate reports about those activities
+    details: Analyse your companies activies and gather valuable insights.
 ---
+
 <TimedLiveClock />
 <script setup>
 import TimedLiveClock from './components/liveLogo.vue'

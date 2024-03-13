@@ -1,11 +1,11 @@
 # Users Page
 
+::: info
+This part of the application is only available to project managers and admins.
+:::
+
 ![Users](/users.png){data-zoomable}
 
-This page contain the list of users that you Supervising them.
+Here you can see the current worktime balance of your employees.
 
-here you can see the time current worktime balance of your employees
-
-![Users Filter](/users_filter.png){data-zoomable}
-
-and you can filter the list of employees via `Supervisor` or `Active` status or search about them
+Again you can use the [filter](docs/details/filters) to boil down the list of results.

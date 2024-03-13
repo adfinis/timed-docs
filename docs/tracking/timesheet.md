@@ -2,6 +2,4 @@
 
 ![Time Sheet](/tracking/timesheet/timesheet.png)
 
-With the time sheet, you can inset you daily activities manually,
-
-not only for the current day, but also for the other days
+The generated daily report ends up in the _timesheet_ tab and shows the actual time spent at the end of the day. Reports can be edited until they are verified by your supervisor.
