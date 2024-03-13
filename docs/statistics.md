@@ -1,12 +1,11 @@
 # Statistics
 
-The statistics page show you the duration of all reports with out any other
-details, and it show the numbers by `Year`, `Month`, `Customer`. `Project`, `Task`, `User`.
-
+The statistics page shows you a visual representation of the reported work and the remaining budget crunched down by some predefined filters: `Year`, `Month`, `Customer`. `Project`, `Task`, `User`.
 
 ![Statistics](/statistics/statistics.png){data-zoomable}
 
-Note: some filters are not provided without providing the [Filters](/docs/filters)
-* `Customer` require `From Date` to be defined
-* `Project` require `Customer` to be defined
-* `Task` require `Customer`, `Project` to be defined
+Note: Some views require you to select a certain [filter](/docs/details/filters)
+
+- `Customer` require `From Date` to be defined
+- `Project` require `Customer` to be defined
+- `Task` require `Customer`, `Project` to be defined

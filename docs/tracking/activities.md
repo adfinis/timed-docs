@@ -1,35 +1,31 @@
 # Activities Tracking
 
+This is the place your day to day time tracking takes place. It should be used as a live dashboard, where you can record your ongoing work and get a quick overview about the past days.
+
 ## Activities bar
 
 ![Activities bar](/tracking/activities/1.png){data-zoomable}
 
-With the activities Bar, you can start an activity, and in the end of the tasks and by the end of the day, you can generate a time sheet from the current activities
+To start a time tracking we go from left to right and start by selecting a customer. Further you need to choose a project and a task you want to start a time tracking for.
+Ideally you add a comment for the ongoing work as well.
+You can start the tracking with the play button and stop the record with the same button. After you starting a task it will pop up in the activities tab underneath.
+You can resume any task from there as well, by just clicking the respective play button at the end of the row.
 
-You don't need to provide any information about the task that you are working on, but later, to generate the timesheet, the customer, project, task are needed
-
-Note: The tasks that you create via activities bar are not going to be included in your working time, you have to generate a timesheet to include it.
-
+Note: The tasks that you've just created won't be included in your working time by solely toggling the play/stop button. For finilizing the time tracking you have to click `Generate timesheet` in the top right of the activities tab.
+This will summarize similar task of the day and create entries in your _timesheet_ tab.
 
 ## Overview Benchmark
 
 ![Overview Benchmark](/tracking/activities/2.png){data-zoomable}
 
-
-The `Overview Benchmark` Component is providing the information about the duration of each working time, you can check your progress virtually, and without needing to go deeply to the details
+Right in the middle of your tracking view you can use the oview component to switch between days and gain a quick overview of you spent hours.
 
 ![Overview Benchmark](/tracking/activities/3.png){data-zoomable}
 
-Those helper methods, will help you to navigate throw the dates, vie going to the next and previus days, or just opening the calendar, and selecting the date, and the `Overview Benchmark` component, will display the inforamtion about the selected date
-
-and the first button in the left, is `Generate Magic Link`,
+On the right you will find a navigation toolbar, which helps to jump back to today or navigate via calendar. The button with the wand icon (magic link), let's you generate links to given task.
 
 ## Magic Link
+
 ![Magic Link](/tracking/activities/4.png){data-zoomable}
 
-This is a great featuer for the team lead and the project manager
-With the magic link, you can define the customer, project, and the task, and also the comment that you want the user to enter the task,
-
-it's useful if you create a list of the task for your team, and then define for the user who is going to work with which task, and you can insert the magic link in the task, with just a click, the user can create the report of his work
-
-for example: the current working of writing the documentation can be reported in: [https://timed.adfinis.com/reports?task=3610103](https://timed.adfinis.com/reports?task=3610103)
+Sharing links to a given task is made easy by this little generator. Simply pre-define where the work should get booked to and share the link with your team.
