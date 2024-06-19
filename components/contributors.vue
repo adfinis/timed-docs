@@ -30,7 +30,7 @@ const data = reactive({
 });
 
 onMounted(async () => {
-    const users: GithubUser[] = await (await fetch('https://api.github.com/repos/adfinis/timed-frontend/contributors')).json();
+    const users: GithubUser[] = await (await fetch('https://api.github.com/repos/adfinis/timed/contributors')).json();
     data.contributors = users;
 });
 </script>

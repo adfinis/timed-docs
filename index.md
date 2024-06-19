@@ -7,7 +7,7 @@ hero:
   text: "An Open Source Time Tracking App"
   tagline: "And easy to use time tracking app."
   image:
-    src: https://raw.githubusercontent.com/adfinis/timed-frontend/main/public/assets/logo.svg
+    src: https://raw.githubusercontent.com/adfinis/timed/main/frontend/public/assets/logo.svg
   actions:
     - theme: brand
       text: Documentation

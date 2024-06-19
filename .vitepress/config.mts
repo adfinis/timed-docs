@@ -17,39 +17,56 @@ export default defineConfig({
     sidebar: [
       {
         text: "Tracking",
+        base: "/docs/tracking/",
         items: [
-          { text: "Activities", link: "/docs/tracking/activities" },
-          { text: "Attendances", link: "/docs/tracking/attendances" },
-          { text: "Timesheet", link: "/docs/tracking/timesheet" },
+          { text: "Activities", link: "/activities" },
+          { text: "Attendances", link: "/attendances" },
+          { text: "Timesheet", link: "/timesheet" },
         ],
       },
       {
+        base: "/docs/",
         items: [
-          { text: "Analysis", link: "/docs/analysis" },
-          { text: "Statistics", link: "/docs/statistics" },
-          { text: "Projects", link: "/docs/projects" },
-          { text: "Users", link: "/docs/users" },
-          { text: "Profile", link: "/docs/profile" },
+          { text: "Analysis", link: "/analysis" },
+          { text: "Statistics", link: "/statistics" },
+          { text: "Projects", link: "/projects" },
+          { text: "Users", link: "/users" },
+          { text: "Profile", link: "/profile" },
         ],
       },
       {
         text: "Details",
+        base: "/docs/details",
         items: [
-          { text: "Filters", link: "/docs/details/filters" },
-          { text: "Estimated Effort", link: "/docs/details/estimated_effort" },
+          { text: "Filters", link: "/filters" },
+          { text: "Estimated Effort", link: "/estimated_effort" },
+        ],
+      },
+      {
+        text: "Administration",
+        base: "/docs/administration/",
+        items: [
+          { text: "Intro", link: "index.md" },
+          { text: "Users", link: "users.md" },
+          { text: "Customers", link: "customers.md" },
+          { text: "Projects", link: "projects.md" },
+          { text: "Tasks", link: "tasks.md" },
+          { text: "Locations", link: "locations.md" },
+          { text: "Public Holidays", link: "public-holidays.md" },
+          { text: "Absence Type", link: "absence-type.md" },
         ],
       },
     ],
     footer: {
       message:
-        'Adfinis Timed is released under the <a href="https://github.com/adfinis/timed-frontend/blob/main/LICENSE">GNU AFFERO GENERAL PUBLIC LICENSE</a>.',
+        'Adfinis Timed is released under the <a href="https://github.com/adfinis/timed/blob/main/LICENSE">GNU AFFERO GENERAL PUBLIC LICENSE</a>.',
       copyright: `Made with ❤️ by Adfinis 
       <br>
-      Copyright © 2019-${date.getFullYear()} <a href="https://github.com/adfinis/timed-frontend">Adfinis Timed</a>
+      Copyright © 2019-${date.getFullYear()} <a href="https://github.com/adfinis/timed">Adfinis Timed</a>
       `,
     },
     socialLinks: [
-      { icon: "github", link: "https://github.com/adfinis/timed-frontend" },
+      { icon: "github", link: "https://github.com/adfinis/timed" },
     ],
     search: {
       provider: "local",
