@@ -47,7 +47,7 @@ export default defineConfig({
         base: "/docs/administration/",
         items: [
           { text: "Intro", link: "index.md" },
-          { text: "Users", link: "users.md" },
+          // { text: "Users", link: "users.md" },
           { text: "Customers", link: "customers.md" },
           { text: "Projects", link: "projects.md" },
           { text: "Tasks", link: "tasks.md" },
