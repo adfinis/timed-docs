@@ -19,27 +19,27 @@ export default defineConfig({
         text: "Tracking",
         base: "/docs/tracking/",
         items: [
-          { text: "Activities", link: "/activities" },
-          { text: "Attendances", link: "/attendances" },
-          { text: "Timesheet", link: "/timesheet" },
+          { text: "Activities", link: "activities.md" },
+          { text: "Attendances", link: "attendances.md" },
+          { text: "Timesheet", link: "timesheet.md" },
         ],
       },
       {
         base: "/docs/",
         items: [
-          { text: "Analysis", link: "/analysis" },
-          { text: "Statistics", link: "/statistics" },
-          { text: "Projects", link: "/projects" },
-          { text: "Users", link: "/users" },
-          { text: "Profile", link: "/profile" },
+          { text: "Analysis", link: "analysis.md" },
+          { text: "Statistics", link: "statistics.md" },
+          { text: "Projects", link: "projects.md" },
+          { text: "Users", link: "users.md" },
+          { text: "Profile", link: "profile.md" },
         ],
       },
       {
         text: "Details",
-        base: "/docs/details",
+        base: "/docs/details/",
         items: [
-          { text: "Filters", link: "/filters" },
-          { text: "Estimated Effort", link: "/estimated_effort" },
+          { text: "Filters", link: "filters.md" },
+          { text: "Estimated Effort", link: "estimated_effort.md" },
         ],
       },
       {
