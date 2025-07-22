@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Timed"
   text: "An Open Source Time Tracking App"
-  tagline: "And easy to use time tracking app."
+  tagline: "An easy to use time tracking app."
   image:
     src: https://raw.githubusercontent.com/adfinis/timed/main/frontend/public/assets/logo.svg
   actions:
