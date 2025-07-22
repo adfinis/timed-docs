@@ -74,4 +74,7 @@ export default defineConfig({
       provider: "local",
     },
   },
+  sitemap: {
+    hostname: 'https://timed.dev',
+  }
 });
