@@ -9,9 +9,11 @@ hero:
   image:
     src: https://raw.githubusercontent.com/adfinis/timed/main/frontend/public/assets/logo.svg
   actions:
-    - theme: brand
-      text: Documentation
+    - text: Documentation
       link: /docs/
+    - theme: danger
+      text: Having an Issue ?
+      link: https://github.com/adfinis/timed/issues/new/choose
 
 features:
   - title: For Employees
