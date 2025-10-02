@@ -39,7 +39,8 @@ export default defineConfig({
         base: "/docs/details/",
         items: [
           { text: "Filters", link: "filters.md" },
-          { text: "Estimated Effort", link: "estimated_effort.md" },
+          { text: "Remaining Effort", link: "remaining-effort.md" },
+          { text: "Magic Link", link: "magic_link.md" },
         ],
       },
       {

@@ -1,5 +1,15 @@
 # Analysis
 
-To obtain an overview, time reports can also be queried in tabular form. The results can be summarised in very detailed reports using [filters](/docs/details/filters). It is also possible to export these queries in various data formats.
+For a comprehensive overview, reports can also be queried in tabular format. The results can be refined using [filters](/docs/details/filters). Additionally, these queries can be exported in various data formats, including **CSV, Excel, and ODS**, providing flexibility for further analysis or sharing.
 
 ![Analysis](/analysis/analysis.png){data-zoomable}
+
+## Edit reports
+
+Select reports you want to edit. They have to be editable - set "editable" filter (link).
+
+If you want to review them, select yourself in "Responsibility > Reviewer" filter (link).
+
+explain what it does
+
+<!-- TODO: add documentation about "edit report" -->
