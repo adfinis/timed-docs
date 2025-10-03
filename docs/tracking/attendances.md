@@ -1,3 +1,5 @@
 # Attendances Tracking
 
-Structure you work day with this simple tool and get a ruff estimate of your working hours for a given day.
+Structure your workday with this simple tool. Track tasks, estimate your working hours for any given day, and adjust your attendance times using the sliders to set start and end times.
+
+![Attendance Tab](/tracking/attendance/attendance.png){data-zoomable}

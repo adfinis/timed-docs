@@ -1,7 +1,7 @@
 # Projects
 
 ::: info
-This part of the application is only available to project managers and admins.
+This part of the application is only available to project managers and administrators.
 :::
 
 ![Project Overview](/projects/overview.png){data-zoomable}
@@ -12,4 +12,4 @@ Manage the tasks for a specific project and lay the foundations for organised co
 
 ![Edit Task](/projects/edit_task.png){data-zoomable}
 
-To file a new task just enter a description. If already foreseable add an [estimated effort](/docs/details/estimated_effort).
+To create a new task, simply enter a description. If an [remaining effort](/docs/details/remaining_effort) is already foreseeable, include it during task creation to ensure better planning and resource allocation. This helps maintain a structured and efficient workflow for your team.
